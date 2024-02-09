@@ -9,15 +9,15 @@
     margin: 0 auto;
     
     justify-items: center;
-    
     border: 10px solid;
     background-color: rgb(241, 213, 248);
-    max-width: 900px;
+min-height: 100vh;
    
     
 }
 .content{
     margin: 0 auto;
+    max-width: 900px;
 
 }
 .sec{
@@ -28,13 +28,13 @@
 
 }
 img{
-width: 230px;
+width: 250px;
 overflow: hidden;
 border-radius: 60px;
-margin-left: 90px;
+margin-left: 60px;
 }
 .h1{
-    margin-right: 170px;
+    margin-right: 150px;
     margin-bottom: 140px;
     font-size: 1.7em;
 }
@@ -78,4 +78,10 @@ margin-bottom: 10PX;
 .sec2 li{
     margin-bottom: 20px;
 
+}
+footer{
+    margin:10px 0px;
+}
+footer p{
+    text-align: end;
 }
