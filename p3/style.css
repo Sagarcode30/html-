@@ -1,0 +1,65 @@
+
+html,body{
+    background-color: antiquewhite;
+    height: 100%;
+    margin: 0;
+
+}
+.img1{
+   
+    background-image: url(images/img3.jpg);
+    min-height: 100%;
+}
+.img1,.img2,.img3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+}
+.text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+
+}
+span{
+    font-size: 3em;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 15px 15px;
+    letter-spacing:6px;
+    text-transform: uppercase;
+
+}
+.img2{
+   
+    background-image: url(images/img2.jpg);
+    min-height:500px;
+}
+.img3{
+   
+    background-image: url(images/img1.jpg);
+    min-height:500px;
+}
+.section1{
+    height: 250px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.section-dark{
+    background-color: rgb(211, 204, 204);
+    color: rgb(7, 3, 3);
+}
+
+h1{
+    font-size:2em;
+}
+p{
+    font-size: 1.1em;
+}

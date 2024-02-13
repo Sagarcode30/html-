@@ -7,8 +7,6 @@
 
 .conatiner{
     margin: 0 auto;
-    
-    justify-items: center;
     border: 10px solid;
     background-color: rgb(241, 213, 248);
 min-height: 100vh;
